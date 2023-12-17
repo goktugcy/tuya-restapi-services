@@ -14,7 +14,6 @@ This project utilizes RESTful APIs to control your devices on the Tuya IoT platf
 
 Set the following environment variables to run the project:
 ```Set the following environment variables to run the project:
-
 CLIENT_ID: Client ID obtained from the Tuya platform.
 CLIENT_SECRET: Client secret obtained from the Tuya platform.
 DEVICE_ID: Identifiers of the Tuya devices you want to control (comma-separated list).
@@ -26,7 +25,7 @@ SWITCH_COMMAND: Command code used for switching in your Tuya devices.
 
 #### Tüm öğeleri getir
 
-```http
+```
   GET /power
 ```
 
