@@ -23,7 +23,7 @@ SWITCH_COMMAND: Command code used for switching in your Tuya devices.
 
 ## API USAGE
 
-#### Tüm öğeleri getir
+#### Switch the Tuya lamb on/off
 
 ```
   GET /power
@@ -34,8 +34,6 @@ SWITCH_COMMAND: Command code used for switching in your Tuya devices.
 | `CLIENT_ID` | `string` | **REQUIRED** |
 | `CLIENT_SECRET` | `string` | **REQUIRED** |
 | `DEVICE_ID` | `string` | **REQUIRED** |
-
-#### Switch the Tuya lamb on/off
 
 
 ## Tuya IoT services
