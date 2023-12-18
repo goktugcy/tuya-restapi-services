@@ -4,7 +4,7 @@ import { tuyaController } from '../tuya/controller'
 export const createRoutes = async () => {
   const router = express.Router()
 
-  router.get('/switchdevices', tuyaController.power)
+  router.get('/power', tuyaController.power)
 
   return router
 }

@@ -17,7 +17,7 @@ const express_1 = __importDefault(require("express"));
 const controller_1 = require("../tuya/controller");
 const createRoutes = () => __awaiter(void 0, void 0, void 0, function* () {
     const router = express_1.default.Router();
-    router.get('/switchdevices', controller_1.tuyaController.power);
+    router.get('/power', controller_1.tuyaController.power);
     return router;
 });
 exports.createRoutes = createRoutes;
